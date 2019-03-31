@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+}
+
+.body{
+    background: #edf2c5;
+    margin: 0;
+    display: block;
+    line-height: 1.15;
+    /*width: 1264px;
+    height: 940px;*/
+}
+
+.mainDomain{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1264px;
+    height: 880px;
+}
+
+.header{
+    padding-top: 53px;
+    margin: 0 160px 8px 160px;
+}
+
+.header h1 {
+    display: block;
+    width: 271px;
+    height: 42px;
+    color: #778A50;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 262.5%;
+    float: left;
+    margin-right: 468px;
+}
+
+.header .bar{
+    display: block;
+    float: right;
+}
+
+.header .bar::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.header img{
+    display: block;
+    float: left;
+}
+
+.header span{
+    display: block;
+    float: left;
+}
+
+.btn_facebook{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn_instagram{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.headerSpan{
+    height: 25px;
+    border-left: 1px solid #778A50;
+    margin-right: 10px;
+}
+
+.header button {
+    height: 25px;
+    background-color: transparent;
+    font-family: 'Arial BoldMT', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    color: #778A50;
+    border: 1px solid #778A50;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    float: left;
+}
+
+.header button:hover {
+    background-color: #778A50;
+    color: #EDF2C5;
+}
+
+.login{
+    margin-right: 10px;
+    width: 60px;
+}
+
+.join{
+    width: 50px;
+}
+
+.column{
+    width: 940px;
+    height: 44px;
+    border-radius: 5px;
+    background: #778A50;
+    margin: 0 160px;
+}
+
+.column a{
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Arial Black';
+    text-decoration: none;
+    padding: 14px 30px;
+    color: #EDF2C5;
+}
+
+.mainPumpkin{
+    width: 940px;
+    height: 448px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.buttonDomain{
+    font-family: Arial;
+    font-size: 12px;
+    color: #edf2c5;
+    width: 100%;
+    background: #778a50;
+    text-align: center;
+    padding: 24px 0 25px 0;
+}
+
+.section{
+    width: 940px;
+    height: 200px;
+    margin: 0 160px 35px 160px;
+    margin-bottom: 35px;
+}
+
+/*.section::after {
+    display: block;
+    content: "";
+    clear: both;
+}*/
+
+.vegetablesPart{
+    width: 445px;
+    height: 200px;
+    margin: 0;
+    float: left;
+    display: block;
+}
+
+.vegetablesPart .vegetablesPartTitle{
+    width: 445px;
+    height: 45px;
+    background-color: #778A50;
+    color: #EDF2C5;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 15px 0 15px 30px;
+    margin: 0 0 15px 0;
+}
+
+.vegetablesPart .img {
+    width: 140px;
+    height: 140px;
+    margin-right: 12px;
+    float: left;
+}
+
+.vegetablesPart .last {
+    width: 140px;
+    height: 140px;
+    margin-right: 0;
+    float: left;
+}
+
+.contactPart{
+    float: right;
+}
+
+.contactPart .contactPartTitle{
+    width: 445px;
+    height: 45px;
+    color: #EDF2C5;
+    background-color: #778A50;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 17px 0 16px 30px;
+    margin: 0 0 15px 0;
+}
+
+.contactPart .contactContent{
+    width: 445px;
+    height: 140px;
+    background-color: #F7FBDA;
+    font-family: 'ArialMT Regular', sans-serif;
+    font-size: 12px;
+    color: #7D7D7D;
+    padding: 16px 15px;
+}
+
+.contactPart .contactContent .contactPartLog{
+    line-height: 1.33;
+}
+
+.contactPart .contactContent .contactPartLine{
+    width: 414px;
+    height: 1px;
+    border-top: 1px solid #7D7D7D;
+    margin: 16px 0;
+}
+
+.contactPart .contactContent .contactPartInfo{
+    line-height: 1.83;
+}
+
+html{
+    line-height: 100%;
+}
